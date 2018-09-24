@@ -5,7 +5,6 @@
 
 html {
   background-color: #121025;
-
   /*
   background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5f4cbdf20cbf101c2aa5542293698249&auto=format&fit=crop&w=3150&q=80") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -14,33 +13,6 @@ html {
    background-size: cover;
    */
 }
-
-/*
-#logo {
-  margin: 0 auto;
-
-  width: 400px;
-  height: 100px;
-
-  clear: both;
-}
-
-#logo img {
-  margin: 5em 0 0 0;
-}
-
-.description {
-  margin: 200px 0 0 0;
-  width: 600px;
-  margin: 0 auto;
-  background-color: red;
-}
-
-h1 {
-  color: #FFFFFF;
-  font-family: sans-serif;
-}
-*/
 
 header {
   width: 25em;
@@ -59,7 +31,7 @@ section.description {
 section.description h1 {
   color: #FFF;
   font-size: 2em;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin: 2em 0 0 0;
 }
@@ -67,9 +39,10 @@ section.description h1 {
 section.description p {
   color: #FFF;
   font-size: 1em;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin: 1em 0 0 0;
+  letter-spacing: .05em;
 }
 
 section.mail {
@@ -78,33 +51,50 @@ section.mail {
 }
 
 section.mail p {
-  color: #FFF;
+  color: #3cb878;
   font-size: 1em;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
+  letter-spacing: .05em;
 }
 
-div.mc-field-group input {
-  margin: 1em 0 0 0;
-  width: 30em;
-  padding: 1em 2em 1em 50px;
-  border: none;
-  background-image: url("./img/email.svg");
-  background-repeat: no-repeat;
-  background-position: 1em 1em;
-  background-size: 1.3em;
-  font-size: 1em;
-  font-family: sans-serif;
-  float: left;
+form {
+  margin: 1em auto;
+  width: 40em;
 }
 
 input.button {
   width: 10em;
-  padding: 1em 2em 1em 50px;
-  background-color: red;
-  float: left;
-  margin: 1em 0 0 0;
+  height: 50px;
+  background-color: #3cb878;
   border: none;
+  float: left;
+
   font-size: 1em;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #FFFFFF;
+  letter-spacing: .1em;
+}
+
+input.email {
+  width: 26em;
+  height: 50px;
+  background-color: #FFFFFF;
+  border: none;
+  float: left;
+
+  background-image: url("img/email.svg");
+  background-repeat: no-repeat;
+  background-size: 1.3em;
+  background-position: 1.3em 50%;
+
+  padding-left: 4em;
+
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .05em;
+  font-weight: 600;
+  color: #9B9B9B;
 }
