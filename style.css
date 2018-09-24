@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #121025;
+
+  /*
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5f4cbdf20cbf101c2aa5542293698249&auto=format&fit=crop&w=3150&q=80") no-repeat center center fixed;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   */
+}
+
+/*
+#logo {
+  margin: 0 auto;
+
+  width: 400px;
+  height: 100px;
+
+  clear: both;
+}
+
+#logo img {
+  margin: 5em 0 0 0;
+}
+
+.description {
+  margin: 200px 0 0 0;
+  width: 600px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: sans-serif;
+}
+*/
+
+header {
+  width: 25em;
+  margin: 8em auto 0 auto;
+}
+
+header img {
+  width: 100%;
+}
+
+section.description {
+  width: 50em;
+  margin: 0 auto;
+}
+
+section.description h1 {
+  color: #FFF;
+  font-size: 2em;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 2em 0 0 0;
+}
+
+section.description p {
+  color: #FFF;
+  font-size: 1em;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 1em 0 0 0;
+}
+
+section.mail {
+  width: 50em;
+  margin: 4em auto;
+}
+
+section.mail p {
+  color: #FFF;
+  font-size: 1em;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div.mc-field-group input {
+  margin: 1em 0 0 0;
+  width: 30em;
+  padding: 1em 2em 1em 50px;
+  border: none;
+  background-image: url("./img/email.svg");
+  background-repeat: no-repeat;
+  background-position: 1em 1em;
+  background-size: 1.3em;
+  font-size: 1em;
+  font-family: sans-serif;
+  float: left;
+}
+
+input.button {
+  width: 10em;
+  padding: 1em 2em 1em 50px;
+  background-color: red;
+  float: left;
+  margin: 1em 0 0 0;
+  border: none;
+  font-size: 1em;
+  font-family: sans-serif;
+}
