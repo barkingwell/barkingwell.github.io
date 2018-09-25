@@ -43,6 +43,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   margin: 1em 0 0 0;
   letter-spacing: .05em;
+  font-weight: 400;
 }
 
 h2 {
@@ -50,6 +51,7 @@ h2 {
   font-size: .75em;
   font-family: 'Open Sans', sans-serif;
   margin: 3em 0 1em 0;
+  font-weight: 400;
 }
 
 input.email {
@@ -67,7 +69,7 @@ input.email {
 
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   color: #9B9B9B;
   border-radius: none;
 }
@@ -83,7 +85,7 @@ input.button {
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   /*text-transform: uppercase;*/
-  font-weight: bold;
+  font-weight: 700;
   color: #FFFFFF;
   letter-spacing: .07em;
 }
