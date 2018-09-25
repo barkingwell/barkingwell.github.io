@@ -21,6 +21,12 @@ header {
   text-align: center;
 }
 
+.index {
+  top: 40%;
+  left: 0;
+  position: absolute;
+}
+
 header img {
   width: 90%;
 }
