@@ -93,6 +93,7 @@ input.button {
 .spam-alert {
   font-size: .7em;
   opacity: .2;
+  margin-top: 2em;
 }
 
 @media screen and (min-width: 40em) {
